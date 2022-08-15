@@ -1,0 +1,199 @@
+2022-08-14T01:37:35+00:00 CRITICAL Uncaught Error: Class "Jet_Dashboard\Utils" not found in D:\xampp\htdocs\QLXH\wp-content\plugins\jet-engine\includes\modules\modules-updater.php:274
+Stack trace:
+#0 D:\xampp\htdocs\QLXH\wp-includes\class-wp-hook.php(309): Jet_Engine_Modules_Updater->get_update(Object(stdClass))
+#1 D:\xampp\htdocs\QLXH\wp-includes\plugin.php(191): WP_Hook->apply_filters(Object(stdClass), Array)
+#2 D:\xampp\htdocs\QLXH\wp-includes\option.php(1992): apply_filters('pre_set_site_tr...', Object(stdClass), 'update_plugins')
+#3 D:\xampp\htdocs\QLXH\wp-includes\update.php(354): set_site_transient('update_plugins', Object(stdClass))
+#4 D:\xampp\htdocs\QLXH\wp-admin\includes\class-wp-automatic-updater.php(466): wp_update_plugins()
+#5 D:\xampp\htdocs\QLXH\wp-includes\update.php(726): WP_Automatic_Updater->run()
+#6 D:\xampp\htdocs\QLXH\wp-includes\class-wp-hook.php(307): wp_maybe_auto_update('')
+#7 D:\xampp\htdocs\QLXH\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#8 D:\xampp\htdocs\QLXH\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#9 D:\xampp\htdocs\QLXH\wp-includes\update.php(253): do_action('wp_maybe_auto_u...')
+#10 D:\xampp\htdocs\QLXH\wp-includes\class-wp-hook.php(307): wp_version_check()
+#11 D:\xampp\htdocs\QLXH\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#12 D:\xampp\htdocs\QLXH\wp-includes\plugin.php(524): WP_Hook->do_action(Array)
+#13 D:\xampp\htdocs\QLXH\wp-cron.php(138): do_action_ref_array('wp_version_chec...', Array)
+#14 {main}
+  thrown in D:\xampp\htdocs\QLXH\wp-content\plugins\jet-engine\includes\modules\modules-updater.php on line 274
+
+2022-08-14T01:39:01+00:00 CRITICAL Uncaught Error: Class "Jet_Dashboard\Utils" not found in D:\xampp\htdocs\QLXH\wp-content\plugins\jet-engine\includes\modules\modules-updater.php:274
+Stack trace:
+#0 D:\xampp\htdocs\QLXH\wp-includes\class-wp-hook.php(309): Jet_Engine_Modules_Updater->get_update(Object(stdClass))
+#1 D:\xampp\htdocs\QLXH\wp-includes\plugin.php(191): WP_Hook->apply_filters(Object(stdClass), Array)
+#2 D:\xampp\htdocs\QLXH\wp-includes\option.php(1992): apply_filters('pre_set_site_tr...', Object(stdClass), 'update_plugins')
+#3 D:\xampp\htdocs\QLXH\wp-includes\update.php(354): set_site_transient('update_plugins', Object(stdClass))
+#4 D:\xampp\htdocs\QLXH\wp-includes\class-wp-hook.php(307): wp_update_plugins()
+#5 D:\xampp\htdocs\QLXH\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#6 D:\xampp\htdocs\QLXH\wp-includes\plugin.php(524): WP_Hook->do_action(Array)
+#7 D:\xampp\htdocs\QLXH\wp-cron.php(138): do_action_ref_array('wp_update_plugi...', Array)
+#8 {main}
+  thrown in D:\xampp\htdocs\QLXH\wp-content\plugins\jet-engine\includes\modules\modules-updater.php on line 274
+
+2022-08-14T02:41:38+00:00 CRITICAL Uncaught Error: Class "Elementor\Scheme_Typography" not found in D:\xampp\htdocs\QLXH\wp-content\plugins\theplus_elementor_addon\modules\widgets\tp_adv_text_block.php:165
+Stack trace:
+#0 D:\xampp\htdocs\QLXH\wp-content\plugins\elementor\includes\base\controls-stack.php(2280): TheplusAddons\Widgets\ThePlus_Adv_Text_Block->_register_controls()
+#1 D:\xampp\htdocs\QLXH\wp-content\plugins\elementor\includes\base\controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#2 D:\xampp\htdocs\QLXH\wp-content\plugins\elementor\includes\base\widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 D:\xampp\htdocs\QLXH\wp-content\plugins\elementor\includes\managers\widgets.php(336): Elementor\Widget_Base->get_stack(false)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 D:\xampp\htdocs\QLXH\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 D:\xampp\htdocs\QLXH\wp-includes\class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#7 D:\xampp\htdocs\QLXH\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#8 D:\xampp\htdocs\QLXH\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#9 D:\xampp\htdocs\QLXH\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#10 {main}
+  thrown in D:\xampp\htdocs\QLXH\wp-content\plugins\theplus_elementor_addon\modules\widgets\tp_adv_text_block.php on line 165
+
+2022-08-14T02:42:47+00:00 CRITICAL Uncaught Error: Class "Elementor\Scheme_Typography" not found in D:\xampp\htdocs\QLXH\wp-content\plugins\theplus_elementor_addon\modules\widgets\tp_adv_text_block.php:165
+Stack trace:
+#0 D:\xampp\htdocs\QLXH\wp-content\plugins\elementor\includes\base\controls-stack.php(2280): TheplusAddons\Widgets\ThePlus_Adv_Text_Block->_register_controls()
+#1 D:\xampp\htdocs\QLXH\wp-content\plugins\elementor\includes\base\controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#2 D:\xampp\htdocs\QLXH\wp-content\plugins\elementor\includes\base\widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 D:\xampp\htdocs\QLXH\wp-content\plugins\elementor\includes\managers\widgets.php(336): Elementor\Widget_Base->get_stack(false)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 D:\xampp\htdocs\QLXH\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 D:\xampp\htdocs\QLXH\wp-includes\class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#7 D:\xampp\htdocs\QLXH\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#8 D:\xampp\htdocs\QLXH\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#9 D:\xampp\htdocs\QLXH\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#10 {main}
+  thrown in D:\xampp\htdocs\QLXH\wp-content\plugins\theplus_elementor_addon\modules\widgets\tp_adv_text_block.php on line 165
+
+2022-08-14T02:45:35+00:00 CRITICAL Uncaught Error: Class "Elementor\Scheme_Typography" not found in D:\xampp\htdocs\QLXH\wp-content\plugins\theplus_elementor_addon\modules\widgets\tp_adv_text_block.php:165
+Stack trace:
+#0 D:\xampp\htdocs\QLXH\wp-content\plugins\elementor\includes\base\controls-stack.php(2280): TheplusAddons\Widgets\ThePlus_Adv_Text_Block->_register_controls()
+#1 D:\xampp\htdocs\QLXH\wp-content\plugins\elementor\includes\base\controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#2 D:\xampp\htdocs\QLXH\wp-content\plugins\elementor\includes\base\widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 D:\xampp\htdocs\QLXH\wp-content\plugins\elementor\includes\managers\widgets.php(336): Elementor\Widget_Base->get_stack(false)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 D:\xampp\htdocs\QLXH\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 D:\xampp\htdocs\QLXH\wp-includes\class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#7 D:\xampp\htdocs\QLXH\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#8 D:\xampp\htdocs\QLXH\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#9 D:\xampp\htdocs\QLXH\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#10 {main}
+  thrown in D:\xampp\htdocs\QLXH\wp-content\plugins\theplus_elementor_addon\modules\widgets\tp_adv_text_block.php on line 165
+
+2022-08-14T02:48:49+00:00 CRITICAL Uncaught Error: Class "Elementor\Scheme_Typography" not found in D:\xampp\htdocs\QLXH\wp-content\plugins\theplus_elementor_addon\modules\widgets\tp_adv_text_block.php:165
+Stack trace:
+#0 D:\xampp\htdocs\QLXH\wp-content\plugins\elementor\includes\base\controls-stack.php(2280): TheplusAddons\Widgets\ThePlus_Adv_Text_Block->_register_controls()
+#1 D:\xampp\htdocs\QLXH\wp-content\plugins\elementor\includes\base\controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#2 D:\xampp\htdocs\QLXH\wp-content\plugins\elementor\includes\base\widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 D:\xampp\htdocs\QLXH\wp-content\plugins\elementor\includes\managers\widgets.php(336): Elementor\Widget_Base->get_stack(false)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 D:\xampp\htdocs\QLXH\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 D:\xampp\htdocs\QLXH\wp-includes\class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#7 D:\xampp\htdocs\QLXH\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#8 D:\xampp\htdocs\QLXH\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#9 D:\xampp\htdocs\QLXH\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#10 {main}
+  thrown in D:\xampp\htdocs\QLXH\wp-content\plugins\theplus_elementor_addon\modules\widgets\tp_adv_text_block.php on line 165
+
+2022-08-14T02:49:00+00:00 CRITICAL Uncaught Error: Class "Elementor\Scheme_Typography" not found in D:\xampp\htdocs\QLXH\wp-content\plugins\theplus_elementor_addon\modules\widgets\tp_adv_text_block.php:165
+Stack trace:
+#0 D:\xampp\htdocs\QLXH\wp-content\plugins\elementor\includes\base\controls-stack.php(2280): TheplusAddons\Widgets\ThePlus_Adv_Text_Block->_register_controls()
+#1 D:\xampp\htdocs\QLXH\wp-content\plugins\elementor\includes\base\controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#2 D:\xampp\htdocs\QLXH\wp-content\plugins\elementor\includes\base\widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 D:\xampp\htdocs\QLXH\wp-content\plugins\elementor\includes\managers\widgets.php(336): Elementor\Widget_Base->get_stack(false)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 D:\xampp\htdocs\QLXH\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 D:\xampp\htdocs\QLXH\wp-includes\class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#7 D:\xampp\htdocs\QLXH\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#8 D:\xampp\htdocs\QLXH\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#9 D:\xampp\htdocs\QLXH\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#10 {main}
+  thrown in D:\xampp\htdocs\QLXH\wp-content\plugins\theplus_elementor_addon\modules\widgets\tp_adv_text_block.php on line 165
+
+2022-08-14T03:06:51+00:00 CRITICAL Uncaught Error: Class "Elementor\Scheme_Typography" not found in D:\xampp\htdocs\QLXH\wp-content\plugins\theplus_elementor_addon\modules\widgets\tp_adv_text_block.php:165
+Stack trace:
+#0 D:\xampp\htdocs\QLXH\wp-content\plugins\elementor\includes\base\controls-stack.php(2280): TheplusAddons\Widgets\ThePlus_Adv_Text_Block->_register_controls()
+#1 D:\xampp\htdocs\QLXH\wp-content\plugins\elementor\includes\base\controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#2 D:\xampp\htdocs\QLXH\wp-content\plugins\elementor\includes\base\widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 D:\xampp\htdocs\QLXH\wp-content\plugins\elementor\includes\managers\widgets.php(336): Elementor\Widget_Base->get_stack(false)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 D:\xampp\htdocs\QLXH\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 D:\xampp\htdocs\QLXH\wp-includes\class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#7 D:\xampp\htdocs\QLXH\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#8 D:\xampp\htdocs\QLXH\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#9 D:\xampp\htdocs\QLXH\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#10 {main}
+  thrown in D:\xampp\htdocs\QLXH\wp-content\plugins\theplus_elementor_addon\modules\widgets\tp_adv_text_block.php on line 165
+
+2022-08-14T03:07:23+00:00 CRITICAL Uncaught Error: Class "Elementor\Scheme_Typography" not found in D:\xampp\htdocs\QLXH\wp-content\plugins\theplus_elementor_addon\modules\widgets\tp_adv_text_block.php:165
+Stack trace:
+#0 D:\xampp\htdocs\QLXH\wp-content\plugins\elementor\includes\base\controls-stack.php(2280): TheplusAddons\Widgets\ThePlus_Adv_Text_Block->_register_controls()
+#1 D:\xampp\htdocs\QLXH\wp-content\plugins\elementor\includes\base\controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#2 D:\xampp\htdocs\QLXH\wp-content\plugins\elementor\includes\base\widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 D:\xampp\htdocs\QLXH\wp-content\plugins\elementor\includes\managers\widgets.php(336): Elementor\Widget_Base->get_stack(false)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 D:\xampp\htdocs\QLXH\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 D:\xampp\htdocs\QLXH\wp-includes\class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#7 D:\xampp\htdocs\QLXH\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#8 D:\xampp\htdocs\QLXH\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#9 D:\xampp\htdocs\QLXH\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#10 {main}
+  thrown in D:\xampp\htdocs\QLXH\wp-content\plugins\theplus_elementor_addon\modules\widgets\tp_adv_text_block.php on line 165
+
+2022-08-14T03:07:46+00:00 CRITICAL Uncaught Error: Class "Elementor\Scheme_Typography" not found in D:\xampp\htdocs\QLXH\wp-content\plugins\theplus_elementor_addon\modules\widgets\tp_adv_text_block.php:165
+Stack trace:
+#0 D:\xampp\htdocs\QLXH\wp-content\plugins\elementor\includes\base\controls-stack.php(2280): TheplusAddons\Widgets\ThePlus_Adv_Text_Block->_register_controls()
+#1 D:\xampp\htdocs\QLXH\wp-content\plugins\elementor\includes\base\controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#2 D:\xampp\htdocs\QLXH\wp-content\plugins\elementor\includes\base\widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 D:\xampp\htdocs\QLXH\wp-content\plugins\elementor\includes\managers\widgets.php(336): Elementor\Widget_Base->get_stack(false)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 D:\xampp\htdocs\QLXH\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 D:\xampp\htdocs\QLXH\wp-includes\class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#7 D:\xampp\htdocs\QLXH\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#8 D:\xampp\htdocs\QLXH\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#9 D:\xampp\htdocs\QLXH\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#10 {main}
+  thrown in D:\xampp\htdocs\QLXH\wp-content\plugins\theplus_elementor_addon\modules\widgets\tp_adv_text_block.php on line 165
+
+2022-08-14T03:19:36+00:00 CRITICAL Uncaught Error: Class "Elementor\Scheme_Typography" not found in D:\xampp\htdocs\QLXH\wp-content\plugins\theplus_elementor_addon\modules\widgets\tp_adv_text_block.php:165
+Stack trace:
+#0 D:\xampp\htdocs\QLXH\wp-content\plugins\elementor\includes\base\controls-stack.php(2280): TheplusAddons\Widgets\ThePlus_Adv_Text_Block->_register_controls()
+#1 D:\xampp\htdocs\QLXH\wp-content\plugins\elementor\includes\base\controls-stack.php(494): Elementor\Controls_Stack->init_controls()
+#2 D:\xampp\htdocs\QLXH\wp-content\plugins\elementor\includes\base\widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 D:\xampp\htdocs\QLXH\wp-content\plugins\elementor\includes\managers\widgets.php(336): Elementor\Widget_Base->get_stack(false)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 D:\xampp\htdocs\QLXH\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 D:\xampp\htdocs\QLXH\wp-includes\class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#7 D:\xampp\htdocs\QLXH\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#8 D:\xampp\htdocs\QLXH\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#9 D:\xampp\htdocs\QLXH\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#10 {main}
+  thrown in D:\xampp\htdocs\QLXH\wp-content\plugins\theplus_elementor_addon\modules\widgets\tp_adv_text_block.php on line 165
+
+2022-08-14T13:23:58+00:00 CRITICAL Uncaught Error: Class "Jet_Dashboard\Utils" not found in D:\xampp\htdocs\QLXH\wp-content\plugins\jet-engine\includes\modules\modules-updater.php:274
+Stack trace:
+#0 D:\xampp\htdocs\QLXH\wp-includes\class-wp-hook.php(309): Jet_Engine_Modules_Updater->get_update(Object(stdClass))
+#1 D:\xampp\htdocs\QLXH\wp-includes\plugin.php(191): WP_Hook->apply_filters(Object(stdClass), Array)
+#2 D:\xampp\htdocs\QLXH\wp-includes\option.php(1992): apply_filters('pre_set_site_tr...', Object(stdClass), 'update_plugins')
+#3 D:\xampp\htdocs\QLXH\wp-includes\update.php(354): set_site_transient('update_plugins', Object(stdClass))
+#4 D:\xampp\htdocs\QLXH\wp-admin\includes\class-wp-automatic-updater.php(466): wp_update_plugins()
+#5 D:\xampp\htdocs\QLXH\wp-includes\update.php(726): WP_Automatic_Updater->run()
+#6 D:\xampp\htdocs\QLXH\wp-includes\class-wp-hook.php(307): wp_maybe_auto_update('')
+#7 D:\xampp\htdocs\QLXH\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#8 D:\xampp\htdocs\QLXH\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#9 D:\xampp\htdocs\QLXH\wp-includes\update.php(253): do_action('wp_maybe_auto_u...')
+#10 D:\xampp\htdocs\QLXH\wp-includes\class-wp-hook.php(307): wp_version_check()
+#11 D:\xampp\htdocs\QLXH\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#12 D:\xampp\htdocs\QLXH\wp-includes\plugin.php(524): WP_Hook->do_action(Array)
+#13 D:\xampp\htdocs\QLXH\wp-cron.php(138): do_action_ref_array('wp_version_chec...', Array)
+#14 {main}
+  thrown in D:\xampp\htdocs\QLXH\wp-content\plugins\jet-engine\includes\modules\modules-updater.php on line 274
+
+2022-08-14T13:24:58+00:00 CRITICAL Uncaught Error: Class "Jet_Dashboard\Utils" not found in D:\xampp\htdocs\QLXH\wp-content\plugins\jet-engine\includes\modules\modules-updater.php:274
+Stack trace:
+#0 D:\xampp\htdocs\QLXH\wp-includes\class-wp-hook.php(309): Jet_Engine_Modules_Updater->get_update(Object(stdClass))
+#1 D:\xampp\htdocs\QLXH\wp-includes\plugin.php(191): WP_Hook->apply_filters(Object(stdClass), Array)
+#2 D:\xampp\htdocs\QLXH\wp-includes\option.php(1992): apply_filters('pre_set_site_tr...', Object(stdClass), 'update_plugins')
+#3 D:\xampp\htdocs\QLXH\wp-includes\update.php(354): set_site_transient('update_plugins', Object(stdClass))
+#4 D:\xampp\htdocs\QLXH\wp-includes\class-wp-hook.php(307): wp_update_plugins()
+#5 D:\xampp\htdocs\QLXH\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#6 D:\xampp\htdocs\QLXH\wp-includes\plugin.php(524): WP_Hook->do_action(Array)
+#7 D:\xampp\htdocs\QLXH\wp-cron.php(138): do_action_ref_array('wp_update_plugi...', Array)
+#8 {main}
+  thrown in D:\xampp\htdocs\QLXH\wp-content\plugins\jet-engine\includes\modules\modules-updater.php on line 274
+

@@ -1,0 +1,12 @@
+2022-08-11T02:41:28+00:00 CRITICAL Uncaught TypeError: urlencode(): Argument #1 ($string) must be of type string, array given in D:\xampp\htdocs\QLXH\wp-content\plugins\waspthemes-yellow-pencil\yellow-pencil.php:939
+Stack trace:
+#0 D:\xampp\htdocs\QLXH\wp-content\plugins\waspthemes-yellow-pencil\yellow-pencil.php(939): urlencode(Array)
+#1 D:\xampp\htdocs\QLXH\wp-content\plugins\waspthemes-yellow-pencil\editor\editor.php(154): wyp_urlencode(Array)
+#2 D:\xampp\htdocs\QLXH\wp-content\plugins\waspthemes-yellow-pencil\yellow-pencil.php(3056): include('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\QLXH\wp-includes\class-wp-hook.php(307): wyp_frame_output('')
+#4 D:\xampp\htdocs\QLXH\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#5 D:\xampp\htdocs\QLXH\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#6 D:\xampp\htdocs\QLXH\wp-admin\admin.php(237): do_action('load-admin_page...')
+#7 {main}
+  thrown in D:\xampp\htdocs\QLXH\wp-content\plugins\waspthemes-yellow-pencil\yellow-pencil.php on line 939
+
